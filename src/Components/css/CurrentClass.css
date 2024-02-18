@@ -1,0 +1,40 @@
+.current-class-container {
+  display: flex;
+  justify-content: space-between; /* Ensure items are evenly spaced */
+  align-items: center;
+}
+
+.current-class,
+.upcoming-class {
+  flex: 1; /* Distribute remaining space equally between the two divs */
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 5px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+.class-details {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.class-details h3 {
+  margin-top: 0;
+}
+
+.class-details p {
+  margin-bottom: 5px;
+}
+
+.class-details img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.current-class p {
+  margin: 0;
+}

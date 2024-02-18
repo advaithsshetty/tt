@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: auto;
+  }
+  
+  .navbar-time {
+    font-size: 1rem;
+    float: right;
+    margin-top: -1rem;
+  }
+  

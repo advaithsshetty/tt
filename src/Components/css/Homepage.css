@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .select-day {
+    margin-bottom: 20px;
+    background-color: #0f0f0f;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0f0f0f;
+    border-radius: 3rem;
+  }
+  
+  table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center; /* Center align table items */
+}
+
+table th {
+  background-color: #0e0e0e;
+  font-weight: bold;
+}
+  
+  table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-items: center;
+    display: inline-flex;
+    margin: auto;
+  }
+  .select-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Select button */
+  .select-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #070707;
+    cursor: pointer;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  
+  /* Dropdown arrow icon */
+  .select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  /* Dropdown menu */
+  .select-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Show dropdown menu when select button is clicked */
+  .select-container:hover .select-menu {
+    display: block;
+  }
+  
+  /* Dropdown menu items */
+  .select-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #bdbdbd;
+  }
+  
+  /* Hover effect for dropdown menu items */
+  .select-item:hover {
+    background-color: #2e2e2e;
+  }

@@ -6,10 +6,11 @@ import CurrentClass from './CurrentClass';
 function Homepage() {
   const [timetable, setTimetable] = useState({});
   const [selectedDay, setSelectedDay] = useState('');
+  const [selectedClass, setSelectedClass] = useState('c1'); // Default selected class
 
   useEffect(() => {
-    // Fetch timetable data from JSON file
-    import('../db/c1.json')
+    // Dynamically import the JSON file based on the selected class
+    import(`../db/${selectedClass}.json`)
       .then(data => {
         setTimetable(data.timetable);
         // Get current day and set it as default selected day
@@ -17,30 +18,21 @@ function Homepage() {
         setSelectedDay(currentDay);
       })
       .catch(error => console.error('Error fetching timetable:', error));
-  }, []);
-
-  const handleDayChange = (event) => {
-    setSelectedDay(event.target.value);
-  };
+  }, [selectedClass]); // Update timetable when selected class changes
 
   return (
     <div>
-      <Navbar />
+      <Navbar onSelectClass={setSelectedClass} />
       <div className="container">
         <CurrentClass timetable={timetable} />
         <h1>Class Timetable</h1>
-        <div className="select-container">
-          <div className="select-button" onClick={handleDayChange}>
-            {selectedDay}
-            <span className="select-arrow">&#9662;</span>
-          </div>
-          <div className="select-menu">
+        <div className='select-container'>
+          <label>Select Day:</label>
+          <select className='select-button' value={selectedDay} onChange={(e) => setSelectedDay(e.target.value)}>
             {Object.keys(timetable).map((day, index) => (
-              <div key={index} className="select-item" onClick={() => setSelectedDay(day)}>
-                {day}
-              </div>
+              <option key={index} value={day}>{day}</option>
             ))}
-          </div>
+          </select>
         </div>
         <div>
           <h2>{selectedDay}</h2>

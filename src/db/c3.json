@@ -1,0 +1,279 @@
+{
+    "timetable": {
+      "Monday": [
+        {
+          "period": "Data Science",
+          "time": "08:30",
+          "endTime": "09:30",
+          "lecturer": {
+            "name": "Dr. Shivanna K",
+            "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+          }
+        },
+        {
+          "period": "Mathematics",
+          "time": "09:30",
+          "endTime": "10:30",
+          "lecturer": {
+            "name": "Prof. Aysha",
+            "picUrl": "https://sahyadri.edu.in/images/profile/20200805_114106.jpg" 
+          }
+        },
+        {
+            "period": "Logic Design",
+            "time": "10:45",
+            "endTime": "11:45",
+            "lecturer": {
+              "name": "Prof. Raghavendra Sooda",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+            }
+          },
+          {
+            "period": "UHV",
+            "time": "11:45",
+            "endTime": "12:45",
+            "lecturer": {
+              "name": "Prof. Akshaya",
+              "picUrl": "https://sahyadri.edu.in/images/profile/Akshaya-website-pic.jpg" 
+            }
+          },
+          {
+            "period": "Skill Lab",
+            "time": "13:30",
+            "endTime": "15:30",
+            "lecturer": {
+              "name": "Rashmi",
+              "picUrl": "https://styles.redditmedia.com/t5_6hcvp3/styles/profileIcon_3zfazp099uva1.png?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=cc849292314118dcd3d78aae5758099bf389bb01" 
+            }
+          },
+            {
+            "period": "Python",
+            "time": "15:30",
+            "endTime": "16:30",
+            "lecturer": {
+            "name": "Prof. Reshma",
+            "picUrl": "https://sahyadri.edu.in/images/profile/1803622_Mrs._Reshma_M_.jpg" 
+            }
+        }
+      ],
+      "Tuesday": [
+        {
+            "period": "Data Science Lab",
+            "time": "08:30",
+            "endTime": "10:30",
+            "lecturer": {
+              "name": "Dr. Shivanna K",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+            }
+          },
+          {
+            "period": "Data Science",
+            "time": "10:45",
+            "endTime": "11:45",
+            "lecturer": {
+              "name": "Dr. Shivanna K",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+            }
+          },
+          {
+              "period": "Object Oriented Programming",
+              "time": "11:45",
+              "endTime": "12:45",
+              "lecturer": {
+                "name": "Prof. Srinath",
+                "picUrl": "https://sahyadri.edu.in/images/profile/srinath.JPG" 
+              }
+            },
+            {
+              "period": "Data Science",
+              "time": "13:30",
+              "endTime": "14:30",
+              "lecturer": {
+                "name": "Dr. Shivanna K",
+                "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+              }
+            },
+            {
+              "period": "Python",
+              "time": "14:30",
+              "endTime": "16:30",
+              "lecturer": {
+              "name": "Prof. Reshma",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803622_Mrs._Reshma_M_.jpg" 
+              }
+          }
+      ],
+      "Wednesday": [
+        {
+          "period": "Object Oriented Programming",
+          "time": "08:30",
+          "endTime": "09:30",
+          "lecturer": {
+            "name": "Prof. Srinath",
+            "picUrl": "https://sahyadri.edu.in/images/profile/srinath.JPG" 
+          }
+        },
+        {
+          "period": "Data Science",
+          "time": "09:30",
+          "endTime": "10:30",
+          "lecturer": {
+            "name": "Dr. Shivanna K",
+            "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+          }
+        },
+        {
+            "period": "Mathematics",
+            "time": "10:45",
+            "endTime": "11:45",
+            "lecturer": {
+              "name": "Prof. Aysha",
+              "picUrl": "https://sahyadri.edu.in/images/profile/20200805_114106.jpg" 
+            }
+        },
+        {
+            "period": "Object Oriented Programming",
+            "time": "11:45",
+            "endTime": "12:45",
+            "lecturer": {
+              "name": "Prof. Srinath",
+              "picUrl": "https://sahyadri.edu.in/images/profile/srinath.JPG" 
+            }
+        },
+        {
+            "period": "Logic Design",
+            "time": "13:30",
+            "endTime": "14:30",
+            "lecturer": {
+              "name": "Prof. Raghavendra Sooda",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+            }
+        }
+      ],
+      "Thursday": [
+        {
+            "period": "Logic Design Lab",
+            "time": "08:30",
+            "endTime": "10:30",
+            "lecturer": {
+              "name": "Prof. Raghavendra Sooda",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+            }
+        },
+        {
+            "period": "Mathematics",
+            "time": "10:45",
+            "endTime": "11:45",
+            "lecturer": {
+              "name": "Prof. Aysha",
+              "picUrl": "https://sahyadri.edu.in/images/profile/20200805_114106.jpg" 
+            }
+        },
+        {
+            "period": "Python",
+            "time": "11:45",
+            "endTime": "12:45",
+            "lecturer": {
+                "name": "Prof. Reshma",
+                "picUrl": "https://sahyadri.edu.in/images/profile/1803622_Mrs._Reshma_M_.jpg" 
+            }
+        },
+        {
+            "period": "Logic Design",
+            "time": "13:30",
+            "endTime": "14:30",
+            "lecturer": {
+                "name": "Prof. Raghavendra Sooda",
+                "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+            }
+        }
+      ],
+      "Friday": [
+        {
+          "period": "Logic Design",
+          "time": "08:30",
+          "endTime": "09:30",
+          "lecturer": {
+            "name": "Prof. Raghavendra Sooda",
+            "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+          }
+        },
+        {
+          "period": "Mathematics",
+          "time": "09:30",
+          "endTime": "10:30",
+          "lecturer": {
+            "name": "Prof. Aysha",
+            "picUrl": "https://sahyadri.edu.in/images/profile/20200805_114106.jpg" 
+          }
+        },
+        {
+            "period": "Object Oriented Programming Lab",
+            "time": "10:45",
+            "endTime": "12:45",
+            "lecturer": {
+              "name": "Prof. Alakananda",
+              "picUrl": "https://sahyadri.edu.in/images/profile/WhatsApp%20Image%202021-05-19%20at%2011.52.28%20AM.jpeg" 
+            }
+        },
+        {
+            "period": "Object Oriented Programming",
+            "time": "13:30",
+            "endTime": "14:30",
+            "lecturer": {
+              "name": "Prof. Srinath",
+              "picUrl": "https://sahyadri.edu.in/images/profile/srinath.JPG" 
+            }
+        },
+        {
+            "period": "AEC",
+            "time": "14:30",
+            "endTime": "16:30",
+            "lecturer": {
+              "name": "Multiple",
+              "picUrl": "https://styles.redditmedia.com/t5_6hcvp3/styles/profileIcon_3zfazp099uva1.png?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=cc849292314118dcd3d78aae5758099bf389bb01" 
+            }
+        }
+      ],
+      "Saturday": [
+        {
+            "period": "Logic Design",
+            "time": "08:30",
+            "endTime": "09:30",
+            "lecturer": {
+              "name": "Prof. Raghavendra Sooda",
+              "picUrl": "https://sahyadri.edu.in/images/profile/1803585_Mr._Raghavendra_Sooda.jpg" 
+            }
+        },
+        {
+            "period": "Object Oriented Programming",
+            "time": "09:30",
+            "endTime": "10:30",
+            "lecturer": {
+                "name": "Prof. Srinath",
+                "picUrl": "https://sahyadri.edu.in/images/profile/srinath.JPG" 
+            }
+        },
+        {
+            "period": "Mathematics",
+            "time": "10:45",
+            "endTime": "11:45",
+            "lecturer": {
+              "name": "Prof. Aysha",
+              "picUrl": "https://sahyadri.edu.in/images/profile/20200805_114106.jpg" 
+            }
+        },
+        {
+            "period": "Data Science",
+            "time": "11:45",
+            "endTime": "12:45",
+            "lecturer": {
+                "name": "Dr. Shivanna K",
+                "picUrl": "https://sahyadri.edu.in/images/profile/1803635_Dr._Shivanna_K.jpg" 
+            }
+        }
+      ],
+      "Sunday" : []
+    }
+  }
+  

@@ -18,3 +18,8 @@
     margin-top: -1rem;
   }
   
+.navbar-select{
+  display: block;
+  margin-top: -2rem;
+  margin-left: 15rem;
+}

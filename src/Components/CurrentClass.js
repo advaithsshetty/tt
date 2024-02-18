@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/CurrentClass.css'; // Import CurrentClass CSS
 
+
 const CurrentClass = ({ timetable }) => {
   const [currentClass, setCurrentClass] = useState(null);
   const [upcomingClass, setUpcomingClass] = useState(null);
